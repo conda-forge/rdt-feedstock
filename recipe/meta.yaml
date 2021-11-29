@@ -11,7 +11,7 @@ source:
   sha256: ee2ac0d3479b254f99f35a709a24ffd5f2c899de6ea71f1ee844c6113febba71
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -19,13 +19,13 @@ requirements:
   host:
     - pip
     - pytest-runner >=2.11.1
-    - python >=3.6,<3.9
+    - python >=3.6,<3.10
   run:
     - numpy >=1.18.0,<2
     - pandas >=1.1,<1.1.5
     - psutil >=5.7,<6
-    - python >=3.6,<3.9
-    - scipy >=1.4.1,<2
+    - python >=3.6,<3.10
+    - scipy >=1.5.4,<2
 
 test:
   imports:
