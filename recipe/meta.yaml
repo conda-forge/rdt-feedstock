@@ -1,5 +1,5 @@
 {% set name = "rdt" %}
-{% set version = "0.6.2" %}
+{% set version = "0.6.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rdt-{{ version }}.tar.gz
-  sha256: cac6522da0e1e4974e57c37a0639c6afe72485dca7c44f671b6f9833e74423c0
+  sha256: c5a02b334b5c0ccefc548b0ea5720f29c26d9bec7e77b706f6779a1c2a00c5e8
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - psutil >=5.7,<6
     - python >=3.6,<3.10
     - scipy >=1.5.4,<2
-    - scikit-learn >=0.24,<1
+    - scikit-learn >=0.24,<2
     - pyyaml >=5.4.1,<6
 
 test:
