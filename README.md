@@ -3,7 +3,7 @@ About rdt
 
 Home: https://github.com/sdv-dev/RDT
 
-Package license: MIT
+Package license: BUSL-1.1
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rdt-feedstock/blob/main/LICENSE.txt)
 
