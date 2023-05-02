@@ -1,5 +1,5 @@
 {% set name = "rdt" %}
-{% set version = "1.4.1" %}
+{% set version = "1.4.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rdt-{{ version }}.tar.gz
-  sha256: 814c1036c5287ea469a0363f92dc53927b07bacffeca32f965fe905e98d2c3e1
+  sha256: 59933cbefc086189bc1d233c6762506022b288e4869a181644b5a6a19f96e7be
 
 build:
   number: 0
@@ -23,7 +23,7 @@ requirements:
   run:
     - Faker >=10
     - numpy >=1.20.0,<2
-    - pandas >=1.1.3,<2
+    - pandas >=1.1.3
     - psutil >=5.7,<6
     - python >=3.7,<3.12
     - scipy >=1.5.4,<2
