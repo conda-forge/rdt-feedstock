@@ -1,5 +1,5 @@
 {% set name = "rdt" %}
-{% set version = "1.6.1" %}
+{% set version = "1.7.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rdt-{{ version }}.tar.gz
-  sha256: 6872b98b2629eafd10dc4123a44c3fa1afbebeb48fa9557351688d885b59f9d6
+  sha256: 18b36364cc31343cf4ad5a825e2969f291df7e1b8f12683922debb3ea15bced7
 
 build:
   number: 0
