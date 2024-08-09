@@ -11,9 +11,9 @@ source:
   sha256: 806a8ca3c7ae3e0ccfe25a006ee0ffd2468c47522d3cf9585d8f450e224b4fd4
 
 build:
-  number: 0
+  number: 1
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
@@ -21,7 +21,7 @@ requirements:
     - pytest-runner >=2.11.1
     - python >=3.8,<3.13
   run:
-    - Faker >=17,<20
+    - Faker >=17
     - numpy >=1.21.0
     - pandas >=1.4.0
     - python >=3.8,<3.13
