@@ -11,7 +11,7 @@ source:
   sha256: b6bbee9e6daa0e70eaf285ee4b46df729d6dd0af7ecd8e1bb7818681206a502e
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -19,12 +19,12 @@ requirements:
   host:
     - pip
     - pytest-runner >=2.11.1
-    - python >=3.8,<3.13
+    - python {{ python_min }}
   run:
     - Faker >=17
     - numpy >=1.21.0
     - pandas >=1.4.0
-    - python >=3.8,<3.13
+    - python >={{ python_min }},<3.13
     - scipy >=1.7.3,<2
     - scikit-learn >=1.0.2,<2
 
@@ -36,6 +36,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/sdv-dev/RDT
