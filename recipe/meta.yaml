@@ -11,7 +11,7 @@ source:
   sha256: af4b354431e4190727d6a5ddeecd1c3e725ff6a90fa9e793eea67d144e2b3d1d
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -24,7 +24,7 @@ requirements:
     - Faker >=17
     - numpy >=1.21.0
     - pandas >=1.4.0
-    - python >={{ python_min }},<3.13
+    - python >={{ python_min }},<3.14
     - scipy >=1.7.3,<2
     - scikit-learn >=1.0.2,<2
 
