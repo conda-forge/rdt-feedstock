@@ -20,8 +20,9 @@ requirements:
     - pip
     - pytest-runner >=2.11.1
     - python {{ python_min }}
+    - setuptools
   run:
-    - Faker >=17, !=37.11.0
+    - Faker >=17,!=37.11.0
     - numpy >=1.21.0
     - pandas >=1.4.0
     - python >={{ python_min }},<3.14
