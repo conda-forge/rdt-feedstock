@@ -24,8 +24,8 @@ requirements:
   run:
     - Faker >=17,!=37.11.0
     - numpy >=1.21.0
-    - pandas >=1.4.0
-    - python >={{ python_min }},<3.14
+    - pandas >=1.4.0,<3
+    - python >={{ python_min }},<3.15
     - python-dateutil >=2.9
     - scipy >=1.7.3,<2
     - scikit-learn >=1.0.2,<2
