@@ -48,9 +48,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - amontanez24
-    - fealho
-    - pvk-developer
-    - frances-h
-    - lajohn4747
-    - rwedge
+    - conda-forge/sdv
