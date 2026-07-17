@@ -16,7 +16,9 @@ Current build status
 <table><tr>
     <td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://github.com/conda-forge/rdt-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/rdt-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      </a>
     </td>
   </tr>
 </table>
@@ -142,10 +144,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@amontanez24](https://github.com/amontanez24/)
-* [@fealho](https://github.com/fealho/)
-* [@frances-h](https://github.com/frances-h/)
-* [@lajohn4747](https://github.com/lajohn4747/)
-* [@pvk-developer](https://github.com/pvk-developer/)
-* [@rwedge](https://github.com/rwedge/)
+* [@conda-forge/sdv](https://github.com/orgs/conda-forge/teams/sdv/)
 
